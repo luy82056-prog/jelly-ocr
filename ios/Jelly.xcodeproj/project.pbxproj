@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14BF5B9754218D2BD19FFD6A5835CE73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26BE0EB66DC4BB9CFFC4FD3D7C991B6 /* LaunchScreen.storyboard */; };
+		3011594A318952F3665400926D43F919 /* OCRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC4A226D0AC8116976EF1B9DAA9C2BB /* OCRService.swift */; };
+		48076584F1B6513E8640F1B22180879F /* QuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E65CD34CDF5DDCEA90A12BDDFA11B8 /* QuoteViewModel.swift */; };
+		69F7689D901E6513065CCE0BCC8A0489 /* QuoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA0639882C88B921E1AB3F61F654688 /* QuoteListView.swift */; };
+		75C32186C72BE5935B21A5CFECC16233 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB722466546E15D2667D734FB62B165 /* Quote.swift */; };
+		C079886F171C135D03EF1EFE09D55551 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39796CEE586CD89FC6E9860D60BE3C0D /* SceneDelegate.swift */; };
+		DB59ABAD71F274750DC4F9E4024D8539 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62D0F25400A88FFBEFFB1F2E69597AB7 /* Assets.xcassets */; };
+		DDFACA5079D7FF0A280764D9D1A41C0A /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD70764B31C74FF549C8FBBB1308162F /* StorageService.swift */; };
+		DF8770AD994923ECE99EB3C0EF36A07D /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D69DB1E958E3FB818009D3294710CE /* CameraViewController.swift */; };
+		F4B19472BF1CA28353A92913319CE8C2 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05671FA3B44384DB6D28F6A9C62016B /* MainTabBarController.swift */; };
+		F5997197EF66A28B392227ACB0D36FC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCA02DFEC39E7D11741CE925007FD87 /* AppDelegate.swift */; };
+		FA830F96227AA8633C5FC27402AB016C /* ExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0F3C1AD79CB7EBB0E79F9CDF7CCB45 /* ExportService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39796CEE586CD89FC6E9860D60BE3C0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4AB722466546E15D2667D734FB62B165 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		4CC4A226D0AC8116976EF1B9DAA9C2BB /* OCRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRService.swift; sourceTree = "<group>"; };
+		5493A12CF046A02426D462CB8ADFB7D9 /* Jelly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jelly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D0F25400A88FFBEFFB1F2E69597AB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BCA02DFEC39E7D11741CE925007FD87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5D69DB1E958E3FB818009D3294710CE /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		BBA9B228341ACBAFA0D96DB8A55A8D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD70764B31C74FF549C8FBBB1308162F /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		CD0F3C1AD79CB7EBB0E79F9CDF7CCB45 /* ExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportService.swift; sourceTree = "<group>"; };
+		CDA0639882C88B921E1AB3F61F654688 /* QuoteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteListView.swift; sourceTree = "<group>"; };
+		E05671FA3B44384DB6D28F6A9C62016B /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		F26BE0EB66DC4BB9CFFC4FD3D7C991B6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4E65CD34CDF5DDCEA90A12BDDFA11B8 /* QuoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1103C50EE5437A84D27A5791AADA8198 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9BCA02DFEC39E7D11741CE925007FD87 /* AppDelegate.swift */,
+				BBA9B228341ACBAFA0D96DB8A55A8D6B /* Info.plist */,
+				39796CEE586CD89FC6E9860D60BE3C0D /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		53D40DE3DCB80684F2C0E1B4650627FC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CD0F3C1AD79CB7EBB0E79F9CDF7CCB45 /* ExportService.swift */,
+				4CC4A226D0AC8116976EF1B9DAA9C2BB /* OCRService.swift */,
+				BD70764B31C74FF549C8FBBB1308162F /* StorageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5D6879782B2475EBEAED999F9FD7944F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A5D69DB1E958E3FB818009D3294710CE /* CameraViewController.swift */,
+				E05671FA3B44384DB6D28F6A9C62016B /* MainTabBarController.swift */,
+				CDA0639882C88B921E1AB3F61F654688 /* QuoteListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5F797DF9CD65986D9B3BCC79FAF926EB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4AB722466546E15D2667D734FB62B165 /* Quote.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		95FE47177429F1D21CEF36A77834B24D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F4E65CD34CDF5DDCEA90A12BDDFA11B8 /* QuoteViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9EC4BC9C6F5E461E00A7083C1A761A65 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1103C50EE5437A84D27A5791AADA8198 /* App */,
+				5F797DF9CD65986D9B3BCC79FAF926EB /* Models */,
+				53D40DE3DCB80684F2C0E1B4650627FC /* Services */,
+				95FE47177429F1D21CEF36A77834B24D /* ViewModels */,
+				5D6879782B2475EBEAED999F9FD7944F /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		AF29AD147EACC6BC378465D330B98C90 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				62D0F25400A88FFBEFFB1F2E69597AB7 /* Assets.xcassets */,
+				F26BE0EB66DC4BB9CFFC4FD3D7C991B6 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D0CF8B29FFB557297F21054DA9C4D278 = {
+			isa = PBXGroup;
+			children = (
+				AF29AD147EACC6BC378465D330B98C90 /* Resources */,
+				9EC4BC9C6F5E461E00A7083C1A761A65 /* Sources */,
+				FEBC975F705ED2A17ABA78F7964F972E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEBC975F705ED2A17ABA78F7964F972E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5493A12CF046A02426D462CB8ADFB7D9 /* Jelly.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67E5AD57E14080415EC64A87CC4277CF /* Jelly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A6EF7385E9CB724A837D0593DB371FE /* Build configuration list for PBXNativeTarget "Jelly" */;
+			buildPhases = (
+				98DCE4915E9BB9CB698DB08B2437C8C3 /* Sources */,
+				F9B393242A5A7730EAF05089AB51EAC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jelly;
+			productName = Jelly;
+			productReference = 5493A12CF046A02426D462CB8ADFB7D9 /* Jelly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A93F9ED91C59EF8EE96E224A03C7DF28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					67E5AD57E14080415EC64A87CC4277CF = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E8D38CFA49B723766D2056818ECA8F69 /* Build configuration list for PBXProject "Jelly" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0CF8B29FFB557297F21054DA9C4D278;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67E5AD57E14080415EC64A87CC4277CF /* Jelly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9B393242A5A7730EAF05089AB51EAC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB59ABAD71F274750DC4F9E4024D8539 /* Assets.xcassets in Resources */,
+				14BF5B9754218D2BD19FFD6A5835CE73 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98DCE4915E9BB9CB698DB08B2437C8C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5997197EF66A28B392227ACB0D36FC1 /* AppDelegate.swift in Sources */,
+				DF8770AD994923ECE99EB3C0EF36A07D /* CameraViewController.swift in Sources */,
+				FA830F96227AA8633C5FC27402AB016C /* ExportService.swift in Sources */,
+				F4B19472BF1CA28353A92913319CE8C2 /* MainTabBarController.swift in Sources */,
+				3011594A318952F3665400926D43F919 /* OCRService.swift in Sources */,
+				75C32186C72BE5935B21A5CFECC16233 /* Quote.swift in Sources */,
+				69F7689D901E6513065CCE0BCC8A0489 /* QuoteListView.swift in Sources */,
+				48076584F1B6513E8640F1B22180879F /* QuoteViewModel.swift in Sources */,
+				C079886F171C135D03EF1EFE09D55551 /* SceneDelegate.swift in Sources */,
+				DDFACA5079D7FF0A280764D9D1A41C0A /* StorageService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3BD71CA374BFBCAFC42AA965FBF0B571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Sources/App/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jelly.Jelly;
+			};
+			name = Release;
+		};
+		97053785B169CC7FD80FD4C6ACE4C56E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Sources/App/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jelly.Jelly;
+			};
+			name = Debug;
+		};
+		C7B10E0C41172F0D532A06E7ED735ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_NAME = Jelly;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		D06F0E6C6AA77EDDBBAC6DB7E4B05AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_NAME = Jelly;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A6EF7385E9CB724A837D0593DB371FE /* Build configuration list for PBXNativeTarget "Jelly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97053785B169CC7FD80FD4C6ACE4C56E /* Debug */,
+				3BD71CA374BFBCAFC42AA965FBF0B571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+		E8D38CFA49B723766D2056818ECA8F69 /* Build configuration list for PBXProject "Jelly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B10E0C41172F0D532A06E7ED735ACE /* Debug */,
+				D06F0E6C6AA77EDDBBAC6DB7E4B05AC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A93F9ED91C59EF8EE96E224A03C7DF28 /* Project object */;
+}
